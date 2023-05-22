@@ -1077,12 +1077,12 @@ const metamask = {
       );
     }
     // todo: handle setting of custom nonce here
-    log('[confirmTransaction] Getting transaction nonce..');
-    txData.customNonce = await playwright.waitAndGetAttributeValue(
-      confirmPageElements.customNonceInput,
-      'placeholder',
-      notificationPage,
-    );
+    // log('[confirmTransaction] Getting transaction nonce..');
+    // txData.customNonce = await playwright.waitAndGetAttributeValue(
+    //   confirmPageElements.customNonceInput,
+    //   'placeholder',
+    //   notificationPage,
+    // );
     // todo: fix getting tx data on function multicall
     // log('[confirmTransaction] Checking if tx data is present..');
     // if (
